@@ -164,7 +164,11 @@ while a <= 99: #Всего 99 страниц на сайте
         text_razdelitely3 = '=================================================================================================================================\n'
 
         #Переменная в которую всё записываем
-        text = str(License_plate) + '\n' + str(Availability) + '\n' + str(Category) + '\n' + str(Color_hex) + '\n' + str(Description) + '\n' + str(Custom_cleared) + '\n' + str(Owners_number) + '\n' + str(PTS) + '\n' + str(VIN) + '\n' + str(Vin_resolution) + '\n' + str(Year) + '\n' + str(Price_rub) + '\n' + str(Price_eur) + '\n' + str(Price_usd) + '\n' + str(Salon) + '\n' + str(Seller) + '\n' + str(Region) + '\n' + str(Timezone) + '\n' + str(Mileage) + '\n' + str(Tip_auto) + '\n' + str(Count_doors) + '\n' + str(Class_auto) + '\n' + str(Name_auto) + '\n' + str(trunk_volume_min) + '\n' + str(Marka_info) + '\n' + str(Model_info) + '\n' + str(Ik_summary) + '\n' + text_razdelitely1 + '\n' + text_razdelitely2 + '\n' + text_razdelitely3
+        text = str(License_plate) + '\n' + str(Availability) + '\n' + str(Category) + '\n' + str(Color_hex) + '\n' + str(Description) + '\n' + str(Custom_cleared) + '\n' + \
+               str(Owners_number) + '\n' + str(PTS) + '\n' + str(VIN) + '\n' + str(Vin_resolution) + '\n' + str(Year) + '\n' + str(Price_rub) + '\n' + str(Price_eur) + '\n' + \
+               str(Price_usd) + '\n' + str(Salon) + '\n' + str(Seller) + '\n' + str(Region) + '\n' + str(Timezone) + '\n' + str(Mileage) + '\n' + str(Tip_auto) + '\n' + \
+               str(Count_doors) + '\n' + str(Class_auto) + '\n' + str(Name_auto) + '\n' + str(trunk_volume_min) + '\n' + str(Marka_info) + '\n' + str(Model_info) + '\n' + \
+               str(Ik_summary) + '\n' + link_img + '\n' + text_razdelitely1 + '\n' + text_razdelitely2 + '\n' + text_razdelitely3
 
         #Записываем переменную в файл
         with open('Save_auto1.txt', 'a', encoding='UTF-8') as file: #Открываем файл Save_auto1.txt (создаётся автоматически), на дозапись (ключ a)
